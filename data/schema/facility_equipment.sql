@@ -6,6 +6,6 @@ CREATE TABLE `facility_equipment` (
   `deactivation_reason` varchar(50) NOT NULL,
   `date_added` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `date_removed` datetime DEFAULT NULL,
-  `serial_number` varchar(150) DEFAULT NULL
+  `serial_number` varchar(150) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COMMENT='Equipment mapped to facilities'
